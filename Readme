@@ -1,0 +1,12 @@
+In this assignment (P1 Aligntext), I separate the project into 2 classes :
+- AlignText : the entry of the project
+- TextProcessor : the class contains main functionality, has 2 methods :
+	1. parse : read input file, process all the input lines so that each line's length not exceeds the maximum char length permitted
+	2. printFormated : display the parse result based on mode selected.
+
+Compile :
+- in the directory contains all the files 
+- javac AlignText.java (will automatically compile FileUtil and TextProcessor)
+
+Run : 
+- java AlignText [input file path] [maxline length] [mode]
